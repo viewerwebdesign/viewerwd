@@ -6443,7 +6443,8 @@ header img{
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #DDD369
+
 }
 
 .text-success {
@@ -10023,7 +10024,7 @@ html {
   font-size: 3rem;
 }
 .content-section-heading h3, .content-section-heading .h3 {
-  font-size: 3rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
   
 }
@@ -10043,7 +10044,7 @@ html {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(0, 128, 255, 0.452);
+  background: rgba(117, 190, 209, 0.452);
   line-height: 50px;
 }
 .scroll-to-top:focus, .scroll-to-top:hover {
@@ -10064,7 +10065,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #232336;
+  background: #04414d;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10167,17 +10168,13 @@ footer.footer {
 footer.footer .social-link {
   display: block;
   text-decoration: none;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 4rem;
+  width: 4rem;
   line-height: 4.3rem;
   font-size: 1.8rem;
   
   transition: background-color 0.15s ease-in-out;
-  box-shadow: 1px 1px 15px  rgba(0, 0, 0, 0.2);
-}
-footer.footer .social-link:hover {
-  background-color: #ffffff4b;
-  text-decoration: none;
+  
 }
 
 .map {
@@ -10206,11 +10203,12 @@ footer.footer .social-link:hover {
   
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, 
                                      rgba(255, 255, 255, 0.1) 100%), 
-                                     url("../assets/img/2\(1\).png");
+                                     url("../assets/img/viewerwhite.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #000 ;
+
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
@@ -10305,11 +10303,15 @@ footer.footer .social-link:hover {
 }
 
 
+
 .service-icon{
   font-size: 3em;
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
+  
+  
+  
   .parrafo{
     text-align: left !important;
   }
@@ -10329,12 +10331,13 @@ footer.footer .social-link:hover {
     background-color: #DDD369;
     box-sizing: border-box;
     text-align: center;
+    
    
   }
   
   footer .h2 h2{
-    color: white;
-    font-size: 1.7em;
+    color: #206976;
+    font-size: 2.1rem;
     text-align: center;
   }
   .container-contacto{
@@ -10354,7 +10357,6 @@ footer.footer .social-link:hover {
   
   .contacto{
     display: flex;
-    
     flex-direction: column;
     align-items:center;
     margin: 10px;
@@ -10365,10 +10367,15 @@ footer.footer .social-link:hover {
     font-size: 1.2em;
     
   }
-  .contacto i{
-    background: none;
-    font-size: 1.4em;
-    color: #2F4858;
+
+.contacto a{
+  text-align: center;
+}
+
+.contacto i{
+  background: none;
+  font-size: 1.4em;
+  color: #2F4858;
   }
   .contacto h6{
     margin-left: 0px;
@@ -10393,6 +10400,7 @@ footer.footer .social-link:hover {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
   
 }
 
@@ -10726,6 +10734,11 @@ footer.footer .social-link:hover {
   align-items: center;
   text-align: center;
 }
+
+.inferior{
+  margin-left: 1.5%; 
+}
+
 footer h2{
   font-size: 2.1em;
   margin: 1%;
@@ -10815,6 +10828,11 @@ footer h2{
   align-items: center;
   text-align: center;
 }
+
+.inferior{
+  margin-left: 1.5%; 
+}
+
 footer h2{
   font-size: 2.1em;
   margin: 1%;
@@ -10823,38 +10841,40 @@ footer h2{
 
 }
 @media (min-width: 1440px){
+  
   .carousel-inner{
-    height: 75vh;
+    height: 80vh;
   }
   .carousel-item img{
-    height: 75vh;
+    height: 80vh;
   }
+  
   footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #8c8c8c;
+    background-color: #DDD369;
     box-sizing: border-box;
     text-align: center;
    
   }
   
-  footer h2{
+  footer .h2 h2{
     color: white;
-    font-size: 1rem;
+    font-size: 1.7em;
     text-align: center;
   }
   .container-contacto{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     max-width: 100%;
   }
   .social-media{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding-right: 3%;
     
   }
@@ -10869,7 +10889,16 @@ footer h2{
   .contacto i, h6{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.2em;
+    
+  }
+  .contacto i{
+    background: none;
+    font-size: 1.4em;
+    color: #2F4858;
+  }
+  .contacto h6{
+    margin-left: 15px;
   }
   
   
@@ -10889,10 +10918,15 @@ footer h2{
 .superior, .inferior{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   text-align: center;
 }
+
+.inferior{
+  margin-left: 1.5%; 
+}
+
 footer h2{
   font-size: 2.1em;
   margin: 1%;
